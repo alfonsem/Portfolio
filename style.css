@@ -20,7 +20,7 @@ header {
 #imagenHeader {
     padding: 35px;
     width: 10%;
-    background-image: url(/images/gafas.png);
+    background-image: url(images/gafas.png);
     background-size: 75%;
     background-position: center;
     background-repeat: no-repeat;
