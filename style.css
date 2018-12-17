@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+}
+
+header {
+    background-color: rgb(234, 170, 68);
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+}
+
+#imagenHeader {
+    padding: 35px;
+    width: 10%;
+    background-image: url(/images/gafas.png);
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tituloHeader {
+    padding: 10px;
+    width: 60%;
+    font-size: 3vw;
+    ;
+}
+
+#menu {
+    padding: 25px;
+    width: 30%;
+    font-size: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: antiquewhite;
+    text-decoration:none;
+}
+
+#cuerpo {
+    width: 100vw;
+    height: 100vh;
+}
+
+#asideIzquierdo {
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(247, 190, 100)
+}
+
+#sectionCentral {
+    width: 60%;
+    height: 100vh;
+    float: left;
+}
+
+#columnasCentral-1-1 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+#columnasCentral-1-2 {
+    padding-top: 10vh;
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+#sectionCentralCol1 {
+    width: 10%;
+}
+
+#miFoto {
+    max-width: 100%;
+    height: auto;
+}
+
+#sectionCentralCol2 {
+    width: 60%;
+    padding-top: 80px;
+    padding-left: 20px;
+    font-size: 4vw;
+}
+
+#sectionCentral-2 {
+    width: 60%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    padding-top: 80px;
+}
+
+#columnasCentral-2-1 {
+    width: 10%;
+    height: 100vh;
+}
+
+#columnasCentral-2-2 {
+    padding-top: 50px;
+    width: 80%;
+    height: 100vh;
+    font-size: 2.5vw;
+}
+
+#columnasCentral-2-3 {
+    width: 10%;
+    height: 100vh;
+}
+
+#sectionCentral-3 {
+    width: 60%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    padding-top: 80px;
+}
+
+#columnasCentral-3-1 {
+    width: 10%;
+    height: 100vh;
+}
+
+#columnasCentral-3-2 {
+    padding-top: 50px;
+    width: 80%;
+    height: 100vh;
+    font-size: 2.5vw;
+}
+
+#columnasCentral-3-3 {
+    width: 10%;
+    height: 100vh;
+}
+
+#sectionCentral-4 {
+    width: 60%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    padding-top: 80px;
+}
+
+#columnasCentral-4-1 {
+    width: 10%;
+    height: 100vh;
+}
+
+#columnasCentral-4-2 {
+    padding-top: 50px;
+    width: 80%;
+    height: 100vh;
+    font-size: 2.5vw;
+}
+
+#columnasCentral-4-3 {
+    width: 10%;
+    height: 100vh;
+}
+
+#asideDerecho {
+    width: 20%;
+    float: left;
+    height: 100vh;
+    background-color: rgb(247, 190, 100);
+}
+
+#piePagina1 {
+    padding-top: 3vw;
+    text-align: right;
+    font-size: 2vw;
+}
+
+#icons{
+    padding-top: 1vw;
+}
+.icons{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#carouselExampleFade{
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(247, 190, 100);
+    padding: 5px;
+    float: left;
+}
